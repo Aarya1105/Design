@@ -1,0 +1,302 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    text-align: center;
+  }
+  
+  .container {
+    width: 300px;
+    margin: 50px auto;
+    padding: 20px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .btn {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 10px;
+    text-decoration: none;
+    text-align: center;
+    font-weight: bold;
+  }
+  
+  .primary {
+    background-color: purple;
+    color: white;
+  }
+  
+  .secondary {
+    background-color: #d8b8f8;
+    color: black;
+  }
+  
+  .disabled {
+    background-color: grey;
+    color: white;
+  }
+  
+  /* Navbar Container */
+.navbar {
+    background-color: #333;  /* Dark background */
+    padding: 15px 0;
+  }
+  
+  /* Navigation links */
+  .nav-links {
+    list-style: none;
+    display: flex;
+    justify-content: right;  /* Center items */
+    gap: 30px;  /* Add spacing between items */
+    padding: 0;
+  }
+  
+  /* Style individual links */
+  .nav-links li {
+    display: inline-block;
+  }
+  
+  /* Remove underline and style links */
+  .nav-links a {
+    text-decoration: none;  /* Remove underline */
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    transition: color 0.3s ease;
+  }
+  
+  /* Hover effect */
+  .nav-links a:hover {
+    color: #f4b400;  /* Change color on hover */
+  }
+  
+  
+  .footer {
+    margin-top: 20px;
+    padding: 10px;
+    background: purple;
+    color: white;
+  }
+  
+  .profile img {
+    border-radius: 50%;
+  }
+   
+  /* Contact Page Styling */
+.contact-container {
+    text-align: center;
+    max-width: 500px;
+    margin: auto;
+    padding: 20px;
+  }
+  
+  .contact-details p {
+    font-size: 16px;
+    margin: 5px 0;
+  }
+  
+  .contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 20px;
+  }
+  
+  .contact-form input,
+  .contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  .contact-form textarea {
+    height: 100px;
+    resize: none;
+  }
+  
+  .contact-form button {
+    background-color: purple;
+    color: white;
+    font-size: 18px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  /* Login form container */
+.login-container {
+    width: 100%;
+    max-width: 400px;
+    margin: auto;
+    padding: 20px;
+    text-align:left;
+  }
+  
+  /* Form styles */
+  .login-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;  /* Adds spacing between form elements */
+  }
+  
+  /* Style inputs */
+  .login-form input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  /* Style labels */
+  .login-form label {
+    font-size: 14px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  /* Style the button */
+  .login-form button {
+    background-color: #6c63ff;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .login-form button:hover {
+    background-color: #574bdb;
+  }
+  
+  /* Signup form container */
+.signup-container {
+    width: 100%;
+    max-width: 400px;
+    margin: auto;
+    padding: 20px;
+    text-align: left;
+  }
+  
+  /* Form styles */
+  .signup-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;  /* Adds spacing between form elements */
+  }
+  
+  /* Style inputs */
+  .signup-form input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  /* Style labels */
+  .signup-form label {
+    font-size: 14px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  /* Style the button */
+  .signup-form button {
+    background-color: #6c63ff;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .signup-form button:hover {
+    background-color: #574bdb;
+  }
+  
+  .account-settings-container {
+    width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #fff;
+    text-align: left;
+  }
+  
+  h2 {
+    font-size: 18px;
+    margin-bottom: 15px;
+  }
+  
+  .profile-card {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+  }
+  
+  .profile-avatar {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-right: 15px;
+  }
+  
+  .profile-info h3 {
+    margin: 0;
+    font-size: 16px;
+  }
+  
+  .profile-info p {
+    margin: 0;
+    font-size: 14px;
+    color: gray;
+  }
+  
+  .profile-description {
+    font-size: 14px;
+    color: #666;
+  }
+  
+  .account-settings {
+    width: 50%;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background: white;
+  }
+  
+  .profile-card {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .profile-pic {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    margin-right: 15px;
+  }
+  
+  h3 {
+    margin: 0;
+    font-size: 1.2em;
+  }
+  
+  p {
+    margin: 5px 0;
+  }
+  
+  
